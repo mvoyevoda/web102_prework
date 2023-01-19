@@ -31,16 +31,12 @@ const gamesContainer = document.getElementById("games-container");
 function addGamesToPage(games) {
 
     // loop over each item in the data
-    let c = 0;
-    let index = 0;
-    let name = "";
-
     for (let i = 0; i < games.length; i++){
-        c++;
+
         //create the div element
         const div = document.createElement("div");
         div.classList.add("game-card");
-        div.id = `Game_${c}`;
+        div.id = `Game_${i+1}`;
 
         //fill game information
         div.innerHTML = `
@@ -132,7 +128,6 @@ function filterFundedOnly() {
 // show all games
 function showAllGames() {
     deleteChildElements(gamesContainer);
-
     // add all games from the JSON data to the DOM
     addGamesToPage(GAMES_JSON);
 }
