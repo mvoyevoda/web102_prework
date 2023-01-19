@@ -17,6 +17,8 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
+**This current version only includes required features. I am currently in the process of adding additional features.**
+
 * [ ] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough
