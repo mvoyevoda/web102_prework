@@ -1,4 +1,4 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - Sea Monster Podium
 
 Submitted by: Maxim Voyevoda
 
