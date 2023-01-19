@@ -25,7 +25,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='./assets/SeaMonsterCrowdfunding Walkthrough v1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='./assets/SeaMonsterCrowdfunding_Walkthrough v1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with LICEcap
 
