@@ -31,7 +31,7 @@ GIF created with LICEcap
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+It was a novel experience for me utilizing the reduce and filter functions instead of traditional for-loop methods as I've been used to programming in my CS classes.
 
 ## License
 
