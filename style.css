@@ -117,9 +117,15 @@ button {
 
 #search {
     /* margin-top: 25px; */
-    margin: 1%;
+    /* margin: 1%;
     min-width: 500px;
-    height: 115px;
+    height: 115px; */
     font-size: 27px;
     text-align: center;
+    border: none;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 7px;
+    width: 100%;
+
 }

@@ -183,8 +183,37 @@ let firstGameTag = document.createElement("p");
 firstGameTag.innerHTML = `${firstGame.name}`;
 document.getElementById("first-game").append(firstGameTag);
 
-
 // do the same for the runner up item
 let secondGameTag = document.createElement("p");
 secondGameTag.innerHTML = `${secondGame.name}`;
 document.getElementById("second-game").append(secondGameTag);
+
+//search mechanism
+const searchInput = document.getElementById("search");
+
+searchInput.addEventListener("input", event => {
+
+    console.log("event detected");
+    deleteChildElements(gamesContainer);
+    const value = event.target.value;
+    console.log(value);
+    
+    let searchGames = GAMES_JSON.filter(game => {
+        let match = true;
+        for (let i = 0; i < value.length; i++){
+            // console.log(`Scanning game letter ${i}`);
+            if (game.name[i].toLowerCase() != value[i].toLowerCase()){
+                match = false;
+                console.log(`"${game.name}" does not match search input`);
+            }
+        }
+        if (match === true){
+            return true;
+        } else {return false};
+    });
+
+    // console.log(searchGames.length);
+    addGamesToPage(searchGames);
+});
+
+// console.log(GAMES_JSON);
