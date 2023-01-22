@@ -4,7 +4,7 @@ Submitted by: Maxim Voyevoda
 
 Sea Monster Podium is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: 10-20 hours spent in total (Majority of time was spent re-learning HTML/CSS, JS, Responsive Design, DOM Manipulation, Destructuriing, etc)
+Time spent: 10-20 hours spent in total (Majority of time was spent re-learning HTML/CSS, JS, Responsive Design, DOM Manipulation, Destructuring, etc)
 
 ## Required Features
 
