@@ -20,8 +20,6 @@ The following **optional** features are implemented:
 * [x] Search mechanism
 * [x] Visual modifications
 
-* [ ] List anything else that you can get done to improve the app functionality!
-
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
