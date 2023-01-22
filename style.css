@@ -3,6 +3,7 @@
 body {
     font-family: 'Cabin';
     background-color: #758190;
+    margin: 0px;
 }
 
 #tentacles {
@@ -17,6 +18,7 @@ body {
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
+    margin-bottom: 10px;
 }
 
 .stats-container {
@@ -69,6 +71,10 @@ body {
 
 #button-container {
     text-align: center;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+
 }
 
 button {
@@ -77,9 +83,43 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+    width: 100%;
 }
 
 #unfunded-btn:hover, #funded-btn:hover, #all-btn:hover {
     cursor: pointer;
     box-shadow: 0 0 30px lightblue;
+}
+
+#top {
+    background-color: #758190;
+    margin-top: -20px;
+    padding: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+}
+
+#mid {
+    background-color: white;
+    margin-top: -20px;
+    /* padding-left: 15px; */
+    /* padding-right: 15px; */
+    /* padding-top: 2px; */
+    padding: 15px;
+
+}
+
+#bottom {
+    background-color: #758190;
+    padding: 15px;
+}
+
+#search {
+    /* margin-top: 25px; */
+    margin: 1%;
+    min-width: 500px;
+    height: 115px;
+    font-size: 27px;
+    text-align: center;
 }
